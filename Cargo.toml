@@ -28,3 +28,6 @@ default_features = false
 version = "0.7"
 default_features = false
 features = []
+
+[patch.crates-io]
+libc = { git = "https://github.com/Soya-Onishi/libc.git", rev = "c740e4c" }
